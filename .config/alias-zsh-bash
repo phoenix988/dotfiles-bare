@@ -268,7 +268,9 @@ alias mvn="cd ~/.config/nvim"
 
 
 # Git aliases
-alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias config="/usr/bin/git --git-dir=$HOME/dotfiles-bare --work-tree=$HOME"
+alias hide-conf="config config --local status.showUntrackedFiles no"
+
 
 # checks the values of mouse/keyboards clicks
 alias keycheck="xev"
