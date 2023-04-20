@@ -1,0 +1,101 @@
+#+title: Dotfiles
+#+DESCRIPTION: Here I store dotfiles for various programs I use
+#+AUTHOR: Karl Fredin
+
+* TABLE OF CONTENTS
+
+- [[About My Dotfiles][About]]
+- [[Configs][Configs]]
+  - [[Window Managers]]
+    - [[Qtile]]
+    - [[Hyprland]]
+    - [[Awesome]]
+    - [[Xmonad]]
+    - [[SpecreWM]]
+  - [[Text Editors]]
+    - [[Doom Emacs]]
+    - [[NeoVim]]
+  - [[Other Configs]]
+- [[Scripts]]
+  - [[Sync Script]]
+  - [[Tmux Session]]
+  - [[Tmux Jump]]
+  - [[Others]]
+    - [[Media Scripts]]
+
+
+  
+** About My Dotfiles
+This repo is for all my personal config files for Software I use daily
+Alot of my configs are based of other peoples configs to make it easy for me.
+I just tweak them to my liking. For example my qtile config I based off Distro Tubes
+Qtile config and tweaked some keybindings I didn't like and styled it a little bit
+
+
+** Configs
+*** Window Managers
+All the Window Manager configs I have
+But the only Two I have played around with and kept up to date
+is hyprland and qtile the other configs might be a bit out of date
+since I have used them
+|-----------+---------+----------|
+| Qtile     | Xmonad  | Hyprland |
+| SpectreWM | Awesome |          |
+
+*** Text Editors
+Well the only text editor I use is Doom emacs and Neovim
+Doom emacs is great cause it has a ton of features. But the vim
+motions completly changed the way I use my computer it's fantastic.
+So I store the configs of my favorite text editor here in my dotfiles
+
+|------------+--------|
+| Doom Emacs | NeoVim |
+
+*** Other Configs
+Here is some other random config files I store here
+like diffrent shells terminals, run prompt etc
+
+|---------+-------------+-----------|
+| Waybar  | Zsh         | Bash      |
+| Fish    | Kitty       | Alacritty |
+| Picom   | Qutebrowser | wofi      |
+| Rofi    | vifm        | Starship  |
+| Wlogout | Tmux        | Dunst     |
+
+** Scripts
+I also store some of my custom scripts here that I used
+to make my life a little bit easier
+**** Sync Script
+This is a script that I use to quickly sync some
+of my most popular scripts and configs to my repos.
+So everytime I modify a config locally on my pc then
+when this script run it will sync it
+|---------------+-------------------------------|
+| [[.scripts/sync]] | [[.scripts/sync/sync-script.org]] |
+|---------------+-------------------------------|
+**** Tmux Session
+Script for tmux that will create a session if it doesnt exist already.
+If it does exist this script will attach that session. Use it to Quickly
+Create some tmux windows
+|---------------------+-------------------------------------------|
+| [[.scripts/activated/]] | [[.scripts/activated/create-tmux-session.sh]] |
+|---------------------+-------------------------------------------|
+**** Tmux Jump
+Some simple tmux script I wrote so I can create a keybinding in my windowmanager
+to quickly jump between tabs within a tmux session
+|---------------+---------------------------|
+| [[.scripts/tmux]] | [[.scripts/tmux/window-(1-9)]] |
+|---------------+---------------------------|
+**** Others
+Also has some other scripts to set random wallpapers, control volume so I can bind
+it to my window manager easily as a keybinding.
+
+***** Media Scripts
+|---------------------+----------------------------------|
+| [[.scripts/activated/]] | [[.scripts/activated/medianext]]     |
+| [[.scripts/activated/]] | [[.scripts/activated/mediaprev]]     |
+| [[.scripts/activated/]] | [[.scripts/activated/mediaplay]]     |
+| [[.scripts/activated/]] | [[.scripts/activated/mute-unmute.sh]] |
+| [[.scripts/activated/]] | [[.scripts/activated/volume-up.sh]]  |
+| [[.scripts/activated/]] | [[.scripts/activated/volume-down.sh]] |
+|---------------------+----------------------------------|
