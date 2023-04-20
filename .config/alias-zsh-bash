@@ -269,6 +269,10 @@ alias mvn="cd ~/.config/nvim"
 
 # Git aliases
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles-bare --work-tree=$HOME"
+alias cs="/usr/bin/git --git-dir=$HOME/dotfiles-bare --work-tree=$HOME status"
+alias ca="/usr/bin/git --git-dir=$HOME/dotfiles-bare --work-tree=$HOME add"
+alias cc="/usr/bin/git --git-dir=$HOME/dotfiles-bare --work-tree=$HOME commit -a -m"
+alias cop="/usr/bin/git --git-dir=$HOME/dotfiles-bare --work-tree=$HOME push"
 alias hide-conf="config config --local status.showUntrackedFiles no"
 
 
