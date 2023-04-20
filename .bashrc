@@ -197,4 +197,5 @@ fi
 #doom_exist=$(echo $PATH | sed 's/:/\n/g' | grep $add_doom)
 #[ -z "$doom_exist" ] &&  PATH="$PATH:$add_doom"
 
+
 [ -e /usr/local/bin/starship ] && eval "$(starship init bash)"

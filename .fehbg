@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill $HOME/Pictures/rose-pine/leafy-moon.png
+feh --no-fehbg --bg-fill /home/karl/Pictures/Nature/stephen-leonardi-eSNjFDbw_i4-unsplash.jpg
